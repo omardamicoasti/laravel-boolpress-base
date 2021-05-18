@@ -87,8 +87,8 @@ class PostController extends Controller
     public function destroy(Post $post)
     {
         $post -> delete();
-        $newpage = 'http://127.0.0.1:8000/';
-        header('Refresh: 1; url=' . $newpage);
+        $newpage = '/';
+        header('Refresh: 0.1; url=' . $newpage);
     }
 
 
