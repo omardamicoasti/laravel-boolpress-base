@@ -2,7 +2,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
-  font-family: "Mulish", sans-serif;
+  font-family: "M PLUS Rounded 1c", sans-serif;
 }
 
 header {
@@ -10,15 +10,107 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
-  background-color: #36b9ff;
+  background-color: #5599bb;
 }
 
 header img {
-  width: 15%;
+  width: 40%;
+}
+
+main {
+  width: 70%;
+  margin: 0 auto;
+  padding: 20px 0;
 }
 
 main h1 {
   text-align: center;
+  padding: 20px 0;
+}
+
+main .postContainer {
+  width: 80%;
+  min-height: 250px;
+  margin: 0 auto;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 5px;
+  padding: 20px 20px;
+  display: flex;
+  margin-bottom: 50px;
+}
+
+main .postContainer #left {
+  width: 20%;
+}
+
+main .postContainer #left img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+}
+
+main .postContainer #right {
+  width: 80%;
+}
+
+main .postContainer #right .possibleActions {
+  height: 5vh;
+  display: flex;
+  justify-content: flex-end;
+}
+
+main .postContainer #right .possibleActions i {
+  color: #3d3d3d;
+  font-size: 25px;
+  padding-left: 20px;
+  transition: 1s;
+}
+
+main .postContainer #right .possibleActions i:hover {
+  color: #33ccff;
+  font-weight: bolder;
+  text-shadow: 3px 3px 20px #3d3d3d, -2px 1px 30px #3d3d3d;
+  transition: 1s;
+}
+
+main .postContainer #right div:nth-child(2) {
+  height: 5vh;
+  display: flex;
+}
+
+main .postContainer #right div:nth-child(2) div {
+  display: flex;
+  align-items: center;
+  width: 50%;
+}
+
+main .postContainer #right div:nth-child(2) div .creationDate {
+  color: #3d3d3d;
+}
+
+main .postContainer #right div:nth-child(3) {
+  height: calc(100% - 15vh);
+  padding-top: 10px;
+}
+
+main .postContainer #right div:nth-child(4) {
+  height: 5vh;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+main .postContainer #right div:nth-child(4) i {
+  color: #3d3d3d;
+  font-size: 15px;
+  transition: 1s;
+}
+
+main .postContainer #right div:nth-child(4) i:hover {
+  color: #33ccff;
+  font-weight: bolder;
+  text-shadow: 3px 3px 20px #3d3d3d, -2px 1px 30px #3d3d3d;
+  transition: 1s;
 }
 
 footer {
@@ -27,6 +119,6 @@ footer {
   justify-content: center;
   align-items: center;
   color: white;
-  background-color: #36b9ff;
+  background-color: #5599bb;
 }
 

@@ -2,7 +2,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Mulish', sans-serif;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
     
 }
 
@@ -11,15 +11,94 @@ header {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: #36b9ff;
+    background-color: #5599bb;
     img {
-        width: 15%; 
+        width: 40%; 
     }
 }
 
 main {
+    width: 70%;
+    margin: 0 auto;
+    padding: 20px 0;
     h1 {
         text-align: center;
+        padding: 20px 0;
+
+    }
+    .postContainer {
+        width: 80%;
+        min-height: 250px;
+        margin: 0 auto;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+        border-radius: 5px;
+        padding: 20px 20px;
+        display: flex;
+        margin-bottom: 50px;
+        
+        
+        #left {
+            width: 20%;
+            img {
+                width: 150px;
+                height:150px;
+                border-radius: 50%;
+            }
+        }
+        #right {
+            width: 80%;
+            .possibleActions {
+                height: 5vh;
+                display: flex;
+                justify-content: flex-end;
+                i {
+                    color: rgb(61, 61, 61);
+                    font-size: 25px;
+                    padding-left: 20px;
+                    transition: 1s;
+                }
+                i:hover {
+                    color: #33ccff;
+                    font-weight: bolder;
+                    text-shadow: 3px 3px 20px rgb(61, 61, 61), -2px 1px 30px rgb(61, 61, 61);
+                    transition: 1s;
+                }
+            }
+            div:nth-child(2) {
+                height: 5vh;
+                display: flex;
+                
+                div {
+                    display: flex;
+                    align-items: center;
+                    width: 50%;
+                    .creationDate {
+                        color: rgb(61, 61, 61);
+                    }
+                }
+            }
+            div:nth-child(3) {
+                height: calc(100% - 15vh);
+                padding-top: 10px;
+            }
+            div:nth-child(4) {
+                height: 5vh;
+                display: flex;
+                justify-content: space-between;
+                align-items: center;
+                i {
+                    color: rgb(61, 61, 61);
+                    font-size: 15px;
+                    transition: 1s;
+                }
+                i:hover {
+                    color: #33ccff;
+                    font-weight: bolder;
+                    text-shadow: 3px 3px 20px rgb(61, 61, 61), -2px 1px 30px rgb(61, 61, 61);
+                    transition: 1s;
+                }
+            }
+        }
     }
 }
 
@@ -29,5 +108,5 @@ footer {
     justify-content: center;
     align-items: center;
     color: white;
-    background-color: #36b9ff;
+    background-color: #5599bb;
 }

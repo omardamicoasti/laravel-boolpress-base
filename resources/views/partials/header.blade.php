@@ -1,3 +1,3 @@
 <header>
-    <img src="{{asset("img/twitterbanner.jpg")}}" alt="">
+    <img src="{{asset("img/twitterbanner.png")}}" alt="">
 </header>
