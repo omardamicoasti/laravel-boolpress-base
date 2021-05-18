@@ -14,8 +14,14 @@
 		 </div>
 		 <div id="right">
 			 <div class="possibleActions">
-				 <a href="#"><i class="fas fa-trash-alt"></i></a>
-				 <a href="#"><i class="fas fa-pen"></i></a>
+					{{-- <i class="fas fa-trash-alt"> --}}
+						<form action="{{route('post.destroy', $post -> id)}}" method="post">
+                    	@csrf
+                    	@method('DELETE')
+                    	<button type="submit"><i class="fas fa-trash-alt"></i></button>
+                		</form>
+					{{-- </i> --}}
+				 <a href="{{ route("post.edit", $post->id) }}"><i class="fas fa-pen"></i></a>
 			 </div>
 			 <div>
 				 <div><h2>{{ $post["user"] }}</h2></div>

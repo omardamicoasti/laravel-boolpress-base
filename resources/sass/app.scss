@@ -75,6 +75,10 @@ main {
                     font-weight: bolder;
                     transition: 1s;
                 }
+                button {
+                    background-color: white;
+                    border: 1px solid white;
+                }
             }
             div:nth-child(2) {
                 height: 5vh;
