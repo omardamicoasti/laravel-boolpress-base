@@ -17,4 +17,6 @@ use Illuminate\Support\Facades\Route;
 //     return view('home');
 // });
 
-Route::get("/", "PostController@home");
+Route::get("/", "PostController@home")->name("home-page");
+
+Route::resource("post", "PostController");

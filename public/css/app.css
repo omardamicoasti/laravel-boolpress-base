@@ -23,6 +23,21 @@ main {
   padding: 20px 0;
 }
 
+main .addNewPost {
+  width: 10%;
+  margin: 0 auto;
+}
+
+main .addNewPost a {
+  font-size: 4em;
+  color: #3d3d3d;
+}
+
+main .addNewPost a:hover {
+  color: #33ccff;
+  transition: 1s;
+}
+
 main h1 {
   text-align: center;
   padding: 20px 0;
@@ -69,7 +84,6 @@ main .postContainer #right .possibleActions i {
 main .postContainer #right .possibleActions i:hover {
   color: #33ccff;
   font-weight: bolder;
-  text-shadow: 3px 3px 20px #3d3d3d, -2px 1px 30px #3d3d3d;
   transition: 1s;
 }
 
@@ -109,7 +123,6 @@ main .postContainer #right div:nth-child(4) i {
 main .postContainer #right div:nth-child(4) i:hover {
   color: #33ccff;
   font-weight: bolder;
-  text-shadow: 3px 3px 20px #3d3d3d, -2px 1px 30px #3d3d3d;
   transition: 1s;
 }
 
