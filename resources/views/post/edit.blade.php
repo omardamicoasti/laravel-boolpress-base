@@ -104,7 +104,7 @@ input[type=submit]:hover {
     </div>
   </div>
   <div class="row">
-    <input type="submit" value="Submit">
+    <input type="submit" value="Edit">
   </div>
   </form>
 </div>

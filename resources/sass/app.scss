@@ -7,13 +7,14 @@
 }
 
 header {
-    height: 20vh;
+    height: 25vh;
     display: flex;
     justify-content: center;
     align-items: center;
     background-color: #5599bb;
     img {
-        width: 40%; 
+        width: 80%;
+        transform: translate(15%);
     }
 }
 

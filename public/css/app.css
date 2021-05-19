@@ -6,7 +6,7 @@
 }
 
 header {
-  height: 20vh;
+  height: 25vh;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -14,7 +14,8 @@ header {
 }
 
 header img {
-  width: 40%;
+  width: 80%;
+  transform: translate(15%);
 }
 
 main {

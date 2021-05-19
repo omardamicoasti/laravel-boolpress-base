@@ -11,7 +11,7 @@
   box-sizing: border-box;
 }
 
-input[type=text], select, textarea {
+input, select, textarea {
   width: 100%;
   padding: 12px;
   border: 1px solid #ccc;
@@ -32,6 +32,7 @@ input[type=submit] {
   border-radius: 4px;
   cursor: pointer;
   float: right;
+  margin-top: 20px;
 }
 
 input[type=submit]:hover {
@@ -99,11 +100,11 @@ input[type=submit]:hover {
       <label for="subject">Body</label>
     </div>
     <div class="col-75">
-      <textarea id="subject" name="body" placeholder="Write something.." style="height:200px"></textarea>
+      <input id="subject" name="body" placeholder="Write something.." style="height:200px"></input>
     </div>
   </div>
   <div class="row">
-    <input type="submit" value="Submit">
+    <input type="submit" value="Create">
   </div>
   </form>
 </div>
